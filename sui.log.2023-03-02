@@ -1,0 +1,12 @@
+2023-03-02T04:20:24.200342Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T04:23:51.270738Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T04:24:51.188848Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T05:08:19.390696Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T05:08:56.166763Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T05:28:51.328179Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T07:54:46.043434Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T08:19:06.717462Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T09:23:14.066660Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T11:49:43.382103Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T12:30:49.087611Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
+2023-03-02T12:39:43.427588Z  WARN sui::client_commands: Client/Server api version mismatch, client api version : 0.27.0, server api version : 0.27.1
