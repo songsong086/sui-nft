@@ -20,6 +20,7 @@ module my_nft::devnet_nft {
         name: string::String,
         /// Description of the token
         description: string::String,
+        tag: string::String,
         /// URL for the token
         url: Url,
         // TODO: allow custom attributes
@@ -39,12 +40,14 @@ module my_nft::devnet_nft {
         name: vector<u8>,
         description: vector<u8>,
         url: vector<u8>,
+        tag: vector<u8>,
         ctx: &mut TxContext
     ) {
         let nft = DevNetNFT {
             id: object::new(ctx),
             name: string::utf8(name),
             description: string::utf8(description),
+            tag: string::utf8(tag),
             url: url::new_unsafe_from_bytes(url)
         };
         let sender = tx_context::sender(ctx);
@@ -66,7 +69,7 @@ module my_nft::devnet_nft {
 
     /// Permanently delete `nft`
     public entry fun burn(nft: DevNetNFT) {
-        let DevNetNFT { id, name: _, description: _, url: _ } = nft;
+        let DevNetNFT { id, name: _, description: _, tag: _,url: _ } = nft;
         object::delete(id)
     }
 
